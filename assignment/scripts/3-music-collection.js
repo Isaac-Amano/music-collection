@@ -13,7 +13,12 @@ function addToCollection(collection, title, artist, yearPublished) {
   return album;
 }
 
-
+console.log(addToCollection(myCollection, "Thriller", "Michael Jackson", 1982));
+console.log(addToCollection(myCollection, "All Eyez On Me", "Tupac", 1996));
+console.log(addToCollection(myCollection, "Get Rich Or Die Tryin", "50 Cent", 2005));
+console.log(addToCollection(myCollection, "2016 Forrest Hills Drive", "J cole", 2016));
+console.log(addToCollection(myCollection, "Ethiopia", "Teddy Afro", 2018));
+console.log(addToCollection(myCollection, "WWTTBA", "Drake", 1976));
 
 
 
